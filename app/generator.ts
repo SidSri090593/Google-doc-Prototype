@@ -12,7 +12,7 @@ import {
     Contribution,
     Outcome
 } from "../Interface/Interface";
-
+import { googleToken } from "../Secret";
 // Sample Data
 
 export default class Sampledatacreator {
@@ -22,7 +22,7 @@ export default class Sampledatacreator {
             name: "Siddharth Sridharan",
             email: "sidsri513@gmail.com",
             phone: "0410241871",
-            googleToken: "Mytoken",
+            googleToken: googleToken
         };
         const address: Address = {
             id: "1",
