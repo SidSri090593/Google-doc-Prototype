@@ -1,6 +1,5 @@
 import {
     User,
-    Address,
     Education,
     Portfolio,
     Client,
@@ -16,17 +15,13 @@ import { googleToken } from "../Secret";
 // Sample Data
 
 export default class Sampledatacreator {
-    public static createSampleData(): void {
+    public createSampleData(): void {
         const user: User = {
             id: "1",
             name: "Siddharth Sridharan",
             email: "sidsri513@gmail.com",
             phone: "0410241871",
-            googleToken: googleToken
-        };
-        const address: Address = {
-            id: "1",
-            userId: "1",
+            googleToken: googleToken,
             state: "NSW",
             city: "Sydney",
             postcode: "2000",

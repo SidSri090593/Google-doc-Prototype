@@ -1,4 +1,8 @@
 import Sampledatacreator from './generator';
 import { GoogleDataTransfer } from '../Interface/Interface';
 //Create sample data
-const sampleData = Sampledatacreator.createSampleData();
+const sampleData = new Sampledatacreator();
+const googleSampleData: any = sampleData.createSampleData();
+console.log(googleSampleData);
+
+export default googleSampleData;

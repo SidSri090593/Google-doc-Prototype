@@ -4,15 +4,18 @@ export interface User {
     email: string,
     phone: string,
     googleToken: string,
-};
-
-export interface Address {
-    id: string,
-    userId: string,
     state: string,
     city: string,
     postcode: string,
 };
+
+// export interface Address {
+//     id: string,
+//     userId: string,
+//     state: string,
+//     city: string,
+//     postcode: string,
+// };
 
 export interface Education {
     id: string,
